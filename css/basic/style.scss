@@ -1,0 +1,74 @@
+@import url("../utilities/utilities.css");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #ffffff;
+}
+
+body {
+  background-color: #000000;
+}
+
+main {
+  height: 100vh;
+  padding: 7vh;
+
+  img {
+    margin-top: 40px;
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+    max-width: 150px;
+  }
+
+  .text {
+    margin-top: 13px;
+    font-size: 20px;
+    line-height: 30px;
+
+    .subscription-input {
+      .email {
+        color: #000000 !important;
+        font-size: 16px;
+        padding: 10px;
+        height: 40px;
+        width: 400px;
+        border: none;
+        outline: none;
+      }
+      .send {
+        cursor: pointer;
+        color: #000000 !important;
+        width: 40px;
+        height: 40px;
+      }
+    }
+  }
+
+  .socials {
+    a,
+    span {
+      cursor: pointer;
+      text-decoration: none;
+      font-size: 30px;
+    }
+    span {
+      margin-left: 40px;
+    }
+  }
+
+  #copied {
+    display: none;
+    .copied-text {
+      padding: 13px;
+      border-radius: 4px;
+      border: 1px solid #ffffff;
+      .cross {
+        cursor: pointer;
+        margin-left: 10px;
+      }
+    }
+  }
+}

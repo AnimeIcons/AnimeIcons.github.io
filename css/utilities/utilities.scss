@@ -1,0 +1,16 @@
+.grid {
+  display: grid;
+  grid-template-rows: 30% 40% 20% 10%;
+  justify-content: center;
+}
+
+.flex-row {
+  display: flex;
+  justify-content: center;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

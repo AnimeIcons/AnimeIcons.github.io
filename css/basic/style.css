@@ -1,0 +1,75 @@
+@import url("../utilities/utilities.css");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #ffffff;
+}
+
+body {
+  background-color: #000000;
+}
+
+main {
+  height: 100vh;
+  padding: 7vh;
+}
+
+main img {
+  margin-top: 40px;
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+  max-width: 150px;
+}
+
+main .text {
+  margin-top: 13px;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+main .text .subscription-input .email {
+  color: #000000 !important;
+  font-size: 16px;
+  padding: 10px;
+  height: 40px;
+  width: 400px;
+  border: none;
+  outline: none;
+}
+
+main .text .subscription-input .send {
+  cursor: pointer;
+  color: #000000 !important;
+  width: 40px;
+  height: 40px;
+}
+
+main .socials a,
+main .socials span {
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+main .socials span {
+  margin-left: 40px;
+}
+
+main #copied {
+  display: none;
+}
+
+main #copied .copied-text {
+  padding: 13px;
+  border-radius: 4px;
+  border: 1px solid #ffffff;
+}
+
+main #copied .copied-text .cross {
+  cursor: pointer;
+  margin-left: 10px;
+}
+/*# sourceMappingURL=style.css.map */
